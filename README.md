@@ -2,4 +2,4 @@
 This is a Random Password Generate which generates a random password form a give set .
 
 
-![](images/Preview.png)
+![](Preview.png)
