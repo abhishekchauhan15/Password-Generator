@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="Forgot password-cuate.svg">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+   
+        <a class="github-corner" href="https://github.com/abhishekchauhan15/Password-Generator" title="Fork me on GitHub" target="_blank">
+            <svg width="80" height="80" viewbox="0 0 250 250">
+                <title>Fork me on GitHub</title>
+                <path d="M0 0h250v250" />
+                <path class="octo-arm" d="M127.4 110c-14.6-9.2-9.4-19.5-9.4-19.5 3-7 1.5-11 1.5-11-1-6.2 3-2 3-2 4 4.7 2 11 2 11-2.2 10.4 5 14.8 9 16.2" fill="currentColor" style="transform-origin:130px 110px;" />
+                <path class="octo-body" d="M113.2 114.3s3.6 1.6 4.7.6l15-13.7c3-2.4 6-3 8.2-2.7-8-11.2-14-25 3-41 4.7-4.4 10.6-6.4 16.2-6.4.6-1.6 3.6-7.3 11.8-10.7 0 0 4.5 2.7 6.8 16.5 4.3 2.7 8.3 6 12 9.8 3.3 3.5 6.7 8 8.6 12.3 14 3 16.8 8 16.8 8-3.4 8-9.4 11-11.4 11 0 5.8-2.3 11-7.5 15.5-16.4 16-30 9-40 .2 0 3-1 7-5.2 11l-13.3 11c-1 1 .5 5.3.8 5z" fill="currentColor" />
+            </svg>
+        </a>
+
+    <!-- <div id="google_translate_element"></div> -->
+
+        <button id="rules-btn" class="rules-btn">Instructions</button>
+        <div id="rules" class="rules">
+            <h2>The best password tips from the pros: </h2><br>
+            <p>
+              1. Do not use the same password security question and answer for multiple important accounts.<br><br>
+              2. Use a password that has at least 16 characters, use at least one number, one uppercase letter,
+               one lowercase letter and one special symbol.<br><br>
+               3. Do not use the names of your families, friends or pets
+                in your passwords.4. Do not use postcodes, house numbers, phone numbers, birthdates, ID card numbers, 
+                social security numbers, and so on in your passwords.<br><br>
+
+                4. Turn on 2-step authentication whenever possible.<br><br>
+                5. Do not store your critical passwords in the cloud.<br><br>
+               
+                </p>
+            
+             <button id="close-btn" class="btn">Close</button>
+          </div>
+          
+      
+        <div class="forms">
+           
+            <form action="">
+              <h2 class="head">Password Generator</h2><br>
+              <!-- <label>Your new password</label> -->
+              <input   id="myOutput"  placeholder="Password" ><br>
+              <button  class="copyBtn" onclick="copyFun()"><img class="copyimg" src="copy.png" ></button><br>
+                <label class="lab"> Password Length </label>
+                <input type="number"  min='5' max='20' value='20' id="Plength" class="cbtn" /><br>
+                <label class="lab"> Include Symbols</label>
+                <input type="checkbox" id="Psymbols" class="cbtn"><br>
+                <label class="lab"> Include Numbers</label>
+                <input type="checkbox" id="Pnumbers" class="cbtn"><br>
+                <label class="lab"> Include Lowercase </label>
+                <input type="checkbox" id="Plowercase" class="cbtn"><br>
+                <label class="lab"> Include Uppercase </label>
+                <input type="checkbox" id="Puppercase" class="cbtn"><br>
+                <label class="lab"> Ridiculous Password</label>
+                <input type="checkbox" id="Pridiculous" class="cbtn"><br>
+                <!-- <label > Quantity:</label>
+                <input type="range"  min='1' max='10' value='1' id="Pquantity"/><br> -->
+               
+                
+
+                <input type="submit" id="generator" value="Generate Password" class="gen-btn">
+                
+            </form>
+
+
+        </div>
+
+        <div class="info">
+            <h2></h2>
+           
+        </div>
+
+        <footer>
+          <div class="wrapper">
+            <div class="icon facebook">
+              <div class="tooltip">Facebook</div>
+              <span> <a href="https://www.facebook.com/devsnest/" target="_blank"> <i class="fab fa-facebook-f"></i></a></span>
+            </div>
+            <div class="icon twitter">
+              <div class="tooltip">Twitter</div>
+              <span> <a href="https://twitter.com/devsnest_" target="_blank" ><i class="fab fa-twitter"></i></a></span>
+            </div>
+            <div class="icon instagram">
+              <div class="tooltip">Instagram</div>
+              <span> <a href="https://www.instagram.com/devsnest.in/" target="_blank"><i class="fab fa-instagram"></i></a></span>
+            </div>
+            <div class="icon github">
+              <div class="tooltip">Github</div>
+              <span> <a href="https://github.com/devs-nest" target="_blank"><i class="fab fa-github"></i></a></span>
+            </div>
+            <div class="icon youtube">
+              <div class="tooltip">Youtube</div>
+              <span> <a href="https://www.youtube.com/channel/UCkxqJvZRzhM0oaBjbu3ZjFg" target="_blank"><i class="fab fa-youtube"></i></a></span>
+            </div>
+          </div>
+          
+          </footer>
+
+        
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</body>
+</html>
