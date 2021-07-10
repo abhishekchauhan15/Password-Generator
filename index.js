@@ -112,7 +112,6 @@ function validation(){
 
     if(ridiculous.checked){
         
-         document.getElementsByClassName("cbtn").classList.add("hello");
         generatedPassword+=getRandomridiculous()
         count++
 
